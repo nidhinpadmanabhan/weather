@@ -1,13 +1,3 @@
-let time = document.getElementById("current-time")
-    day = document.getElementById("current-date")
-
-    setInterval(() => {
-        let d = new Date();
-        time.innerHTML = d.toLocaleTimeString();
-        day.innerHTML = d.toLocaleDateString();
-    }, 1000)
-
-
     function displayPlace() {
         place = pname.value
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${place}&appid=b41ec3be35c7dac8aabbc21ba253137a`).then(data => data.json()).then(data => displayData(data))

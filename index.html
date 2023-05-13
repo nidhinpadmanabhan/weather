@@ -56,5 +56,15 @@
     </div>
 
 </body>
+<script>
+    let time = document.getElementById("current-time")
+    day = document.getElementById("current-date")
+
+    setInterval(() => {
+        let d = new Date();
+        time.innerHTML = d.toLocaleTimeString();
+        day.innerHTML = d.toLocaleDateString();
+    }, 1000)
+</script>
 
 </html>
