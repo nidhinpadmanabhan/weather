@@ -1,0 +1,59 @@
+body{
+    background-image: url(./images/main1.jpg);
+    background-size: cover;
+}
+.c1::placeholder{
+    color: white;
+}
+.c10{
+    width: 75%;
+}
+.c20{
+    width: 50%;
+}
+.c30{
+    font-family: Alkatra, sans-serif;
+}
+.c40{
+    font-family: Oleo Script, sans-serif;   
+}
+.c50{
+    font-family: Dancing Script, sans-serif;   
+}
+.x1{
+    text-align: right;
+    margin-top: -15px; 
+}
+.x2{
+    text-align: left;
+    margin-top: -15px; 
+}
+
+@media(max-width:500px){
+    .c10{
+         width: 90%;
+    }
+    .c20{
+        width: 80%;
+    }
+}
+@media(max-width:320px){
+    .c10{
+         width: 100%;
+    }
+    .c20{
+        width: 100%;
+    }
+    .c30 span{
+        display: none;
+    }
+}
+@media(max-width:575px){
+    .x1{
+        text-align: center;
+    }
+    .x2{
+        text-align: center;
+        margin-top: -20px; 
+    }
+}
