@@ -4,7 +4,7 @@ result.innerHTML= `
 
 <div class="text-light c10 container p-3 text-center" style="background-color: rgba(0, 0, 0, 0.738); border-radius: 20px; border: white 4px double;">
 <div>
-<h1 class="c40 pt-3" id="pnam" ><strong></strong></h1>
+<h1 class="c40 text-center pt-3" id="pnam" ><strong></strong></h1>
 <h2 class="c50 text-center" id="tem">  </h2>
 <h3 class="c50 text-center" id="mai"></h3>
 </div>
