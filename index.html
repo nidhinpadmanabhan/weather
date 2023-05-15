@@ -42,7 +42,7 @@
             <input id="pname" type="text" class="c1 form-control bg-dark text-light" placeholder="Enter City"
                 aria-label="Recipient's username" aria-describedby="basic-addon2">
             <span class="input-group-text bg-dark" id="basic-addon2">
-                <button onclick="displayPlace()" type="button" class="btn border-0"><i
+                <button onclick="relod(),displayPlace()" type="button" id="relod" class="btn border-0"><i
                         class="fa-solid fa-magnifying-glass fa-lg" style="color: white;"></i></button></span>
             <span class="input-group-text bg-dark" id="basic-addon2">
                 <button onclick="searchLoc()" type="button" class="btn border-0"><i
@@ -50,8 +50,10 @@
         </div>
 
 
-        <div id="result" class="c10 container p-3 text-center">
+        <div >
+                <div id="result">
 
+                </div>
         </div>
     </div>
 
